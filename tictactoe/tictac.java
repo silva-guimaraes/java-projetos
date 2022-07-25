@@ -8,7 +8,6 @@ class Table{
 	} 
 	public boolean isWin(char y){
 		int chance = 0;
-		/*every combination of 3 spaces possible*/
 		final Integer[][] lookUp = {	{1,2,3},
 						{4,5,6},
 						{7,8,9},
